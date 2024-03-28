@@ -1,4 +1,4 @@
-# Dësch-Tennis Lenneng - Knowledge Base
+# bell0bytes - Knowledge Base
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/medium.svg)](https://starlight.astro.build)
 
