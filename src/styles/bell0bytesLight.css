@@ -42,7 +42,7 @@
 	--sl-color-red: var(--nord11);
 	--sl-color-red-high: var(--nord7);
 
-	--sl-color-accent-low: var(--nord11);
-	--sl-color-accent: var(--nord11);
-	--sl-color-accent-high: var(--nord11);
+	--sl-color-accent-low: var(--nord7);
+	--sl-color-accent: var(--nord7);
+	--sl-color-accent-high: var(--nord7);
 }
