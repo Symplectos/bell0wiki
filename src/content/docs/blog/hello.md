@@ -1,0 +1,10 @@
+---
+title: From Blog to Knowledge Base
+date: 2024-03-29
+tags:
+  - bell0bytes
+---
+
+As a result of no longer having the time to maintain a blog,
+it was decided to archive the knowledge acquired during the journey of the bell0bytes project into a knowledge base. 
+The pages and articles from the old bell0bytes blog will slowly, but steadily, be made available in the knowledge base.

@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightBlog from 'starlight-blog'
+
 // latex support
 import remarkMath from 'remark-math';
 import rehypeMathjax from 'rehype-mathjax';
@@ -10,6 +12,14 @@ export default defineConfig({
 	base: './',
 	integrations: [
 		starlight({
+			plugins: [starlightBlog({
+				title: 'News',
+				authors: {
+					symplectos: {
+						name: 'Gilles Bellot',
+					}
+				}
+			})],
 			customCss: [
 				'./src/styles/bell0bytes.css',
 				'./src/styles/bell0bytesDark.css',
@@ -39,9 +49,6 @@ export default defineConfig({
 					autogenerate: { directory: 'lore' },
 				},
 			],
-			editLink: {
-				baseUrl: 'https://gitlab.com/symplectos/bell0wiki/-/edit/main/'
-			}
 		}),
 	],
 	markdown: {
