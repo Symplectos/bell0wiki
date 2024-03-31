@@ -1,10 +1,13 @@
 ---
 title: Mathematics
 description: Mathematical Knowledge Base
+sidebar:
+    order: 0
 ---
 
 > Die Mathematik ist die Königin der Wissenschaften und die Zahlentheorie ist die Königin der Mathematik.
--- Johann Carl Friedrich Gauß
+> 
+> -- Johann Carl Friedrich Gauß
 
 ## Lattices and Genera
 
@@ -62,27 +65,26 @@ description: Mathematical Knowledge Base
 
 ## Algebraic Number Theory
 
-* Introduction to p-adic numbers -- G. Bellot (
-  2015)
+* [Introduction to p-adic numbers](https://filedn.eu/ltgnTcOBnsYpGSo6BiuFrPL/Documents/Mathematics/gb-padic.pdf) -- G. Bellot (2015)
 
 ---
 
 ## Dynamical Systems
 
-* Entropie und Ergodizität (Einführung) -- G. Bellot (2014)
-* Das Lambda-Lemma -- G. Bellot (2007)
+* [Entropie und Ergodizität](https://filedn.eu/ltgnTcOBnsYpGSo6BiuFrPL/Documents/Mathematics/gb-seminarDynSysErgo.pdf) (Einführung) -- G. Bellot (2014)
+* [Das $\lambda$-Lemma](https://filedn.eu/ltgnTcOBnsYpGSo6BiuFrPL/Documents/Mathematics/gb-seminarDynSystems.pdf) -- G. Bellot (2007)
 
 ---
 
 ## Differential Topology
 
-* Der Zerlegungssatz von Jordan-Brouwer -- G. Bellot (2005)
+* [Der Zerlegungssatz von Jordan-Brouwer](https://filedn.eu/ltgnTcOBnsYpGSo6BiuFrPL/Documents/Mathematics/gb-jordanBrouwer.pdf) -- G. Bellot (2005)
 
 ---
 
 ## Information and Coding Theory
 
-* Linear-Feedback Shift Registers
+* [Linear-Feedback Shift Registers](../information-coding-theory/berlekamp)
 
 ---
 

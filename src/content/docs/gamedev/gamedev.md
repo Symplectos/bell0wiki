@@ -1,6 +1,9 @@
 ---
 title: Game Programming
 description: Knowledge base and tutorials about game programming
+
+sidebar:
+    order: 0
 ---
 
 > Most good programmers do programming not because they expect to get paid or get adulation by the public, but because
