@@ -34,7 +34,7 @@ Defining the position of an object to be a mathematical function of time, $x: \m
 t)$, mapping an instant of time to the actual position of the object at that exact time, the motion of an object can be
 visualized by the graph of the function.
 
-![A graph showing the change of position over time](../../../../../assets/mathematics/physics/kinematics/pos1.png)
+![A graph showing the change of position over time](../../../../../assets/mathematics/physics/kinematics/pos1.webp)
 
 In the above graph one can see that while between $t=0$ and $t=4$ the object travels 4 km, its total displacement is
 $\Delta x = x_4-x_2=2-2=0$, indicating that it moved an equal distance in the positive and negative direction. Between
@@ -59,7 +59,7 @@ $v_{avg} := \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}$. Note that,
 velocity also indicates the direction the object is travelling in, as the average velocity is actually negative, if and
 only if, $x_1 > x_2$, as depicted in the figure below.
 
-‌![Average velocity can be positive, zero or negative](../../../../../assets/mathematics/physics/kinematics/posNegVel.png)
+‌![Average velocity can be positive, zero or negative](../../../../../assets/mathematics/physics/kinematics/posNegVel.webp)
 
 In the figure, one can also see that the slope of a line connecting two points is equal to the average velocity during
 that time interval.
@@ -81,7 +81,7 @@ velocity that an object would continue to travel at, if no forces, no longer int
 
 Geometrically, the instant velocity at the time $t$ is the slope of the tangent line at $x_t$:
 
-![Instant velocity is the slope of the tangent](../../../../../assets/mathematics/physics/kinematics/instVel.png)
+![Instant velocity is the slope of the tangent](../../../../../assets/mathematics/physics/kinematics/instVel.webp)
 
 To be more precise, the instantaneous velocity of an object, at any particular moment in time, can be expressed as the
 derivative of the position with respect to time: $$v = \lim_{\Delta t \to 0}\dfrac{\Delta x }{\Delta t} =
@@ -91,7 +91,7 @@ Drawing the graph of the velocity function, one can see that the displacement of
 under the graph between two time points, or, the displacement function $x$ is the integral of the velocity function $v$:
 $x = \int v dt.$
 
-![Definite integrals between two time intervals show the total displacement of an object](../../../../../assets/mathematics/physics/kinematics/vtNew.png)
+![Definite integrals between two time intervals show the total displacement of an object](../../../../../assets/mathematics/physics/kinematics/vtNew.webp)
 
 A negative velocity simply means that the object is speeding ahead in the negative direction, as defined by the
 underlying vector space.
@@ -124,7 +124,7 @@ the acceleration function $a: \mathbb{R} \to \mathbb{R}$, $t \mapsto a(t)$, mapp
 acceleration of an object at that exact time, or, thinking about integrals again, the velocity is the integral of the
 acceleration with respect to the time: $v = \int a dt$.
 
-![Relatioship between displacement (x), velocity (v) and acceleration (a)](../../../../../assets/mathematics/physics/kinematics/acc.png)
+![Relatioship between displacement (x), velocity (v) and acceleration (a)](../../../../../assets/mathematics/physics/kinematics/acc.webp)
 
 The figure above shows the acceleration as the slope of the tangent at a specific point. One can see that at the peak of
 its velocity, the object has no acceleration for a brief moment of time (tangent line parallel to the $x$-axis), and the
@@ -299,7 +299,7 @@ util::Expected<void> PlayState::render(const double farSeer)
 }
 ```
 
-![Bullets being moved by symplectic integration!](../../../../../assets/mathematics/physics/kinematics/bullets.png)
+![Bullets being moved by symplectic integration!](../../../../../assets/mathematics/physics/kinematics/bullets.webp)
 
 That's it. All in all, one-dimensional kinematics are rather easy to handle, but the theory behind Hamiltonian systems
 and symplectic integrators can be a bit intimidating. Just **remember to update the velocity before updating the
