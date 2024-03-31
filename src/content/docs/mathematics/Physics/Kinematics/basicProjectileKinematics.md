@@ -26,8 +26,12 @@ influence of gravity. Air resistance and the Earth's rotation are ignored for th
 To simulate projectile motion, the equations of motion of the previous chapter can be used. Since gravity only adds
 negative vertical acceleration, the acceleration vector can be set to $\vec{a} = \begin{pmatrix} 0 \\\ g\end{pmatrix}$,
 where $g$ stands for the acceleration caused by gravitation: on Earth, the acceleration of gravity is averaged to be
-$9,81 \frac{m}{s^2}$. The equations of motion thus look as follows:$$\begin{align}x &= x_0 + {v_x}_0 \cdot t \\ y &=
-y_0 + {v_y}_0 \cdot t - \dfrac{1}{2}gt^2. \end{align}$$
+$9,81 \frac{m}{s^2}$. The equations of motion thus look as follows:
+
+$$
+\begin{align}x &= x_0 + {v_x}_0 \cdot t \\ y &=
+y_0 + {v_y}_0 \cdot t - \dfrac{1}{2}gt^2. \end{align}
+$$
 
 ## Launch Angle
 
@@ -50,14 +54,24 @@ thus the initial horizontal velocity is ${v_0}_x = 5,7 \cdot \cos 15,26 \approx 
 ***
 
 Using this new idea, the equations of motion for a projectile launched with an initial speed $v_0$ and at an angle
-$\varTheta$, transform into the following: $$\begin{align}x &= x_0 + t \cdot v_0 \cdot \cos \varTheta \\\ y &= y_0 + t
-\cdot v_0 \cdot \sin \varTheta - \frac{1}{2}gt, \end{align}$$where $(x_0,y_0)$ is the launch site of the projectile.
+$\varTheta$, transform into the following: 
+
+$$
+\begin{align}x &= x_0 + t \cdot v_0 \cdot \cos \varTheta \\\ y &= y_0 + t
+\cdot v_0 \cdot \sin \varTheta - \frac{1}{2}gt, \end{align}
+$$
+
+where $(x_0,y_0)$ is the launch site of the projectile.
 
 ***
 
 We will only discuss frictional forces in later tutorials, but just as an idea, to add, for example, a small wind force,
-slowing down a bullet, a small negative vertical acceleration $f$ could be used:$$\begin{align}x &= x_0 + t \cdot v_0
-\cdot \cos \varTheta - \frac{1}{2}ft^2\\\ y &= y_0 + t \cdot v_0 \cdot \sin \varTheta - \frac{1}{2}gt. \end{align}$$
+slowing down a bullet, a small negative vertical acceleration $f$ could be used:
+
+$$
+\begin{align}x &= x_0 + t \cdot v_0
+\cdot \cos \varTheta - \frac{1}{2}ft^2\\\ y &= y_0 + t \cdot v_0 \cdot \sin \varTheta - \frac{1}{2}gt. \end{align}
+$$
 
 ## Key Characteristics
 
@@ -71,9 +85,14 @@ equation $0 = {v_y}_0 - \frac{1}{2}gt^2$. The solution is $t = \dfrac{2v_0}{g}\s
 
 If the projectile is instead launched from a launch site located at $A=(x_0, y_0)$, then the time it takes for the
 projectile to hit the ground can be calculated by solving the equation $0 = y_0 + {v_y}y_0 - \frac{1}{2}gt^2$. The
-positive solution of that equation is $t = \dfrac{v_0 \cdot \sin \varTheta + \sqrt{v_0^2 \cdot \sin^2\varTheta + 2 \cdot
-g \cdot y_0}}{g}$, which, for $y_0$, simplifies to the above solution of a launch from the centre of the coordinate
-system.
+positive solution of that equation is 
+
+$$
+t = \dfrac{v_0 \cdot \sin \varTheta + \sqrt{v_0^2 \cdot \sin^2\varTheta + 2 \cdot
+g \cdot y_0}}{g},
+$$ 
+
+which, for $y_0$, simplifies to the above solution of a launch from the centre of the coordinate system.
 
 ***
 
@@ -86,10 +105,14 @@ becomes $0$, thus until $0 = v_0\sin\varTheta - gt$. The time it takes to reach 
 
 The **range** $d$ of a projectile is the **maximal horizontal distance** the projectile travels before it hits the
 ground. The range can be calculated by plugging in the time it takes the projectile to hit the ground into the equation
-for the motion in the $x$-axis. The actual solution is $d = \dfrac{v_0^2 \cdot \sin2\varTheta}{2g}\left(
-1+\sqrt{1+\dfrac{2\cdot g \cdot y_0}{v_0^2 \cdot \sin^2\varTheta}} \right)$, for a projectile launched at an initial
-height of $y_0$, thus $d = \dfrac{v_0^2}{g}\sin2\varTheta$, for a projectile launched from the centre of the coordinate
-system.
+for the motion in the $x$-axis. The actual solution is 
+
+$$
+d = \dfrac{v_0^2 \cdot \sin2\varTheta}{2g}\left(1+\sqrt{1+\dfrac{2\cdot g \cdot y_0}{v_0^2 \cdot \sin^2\varTheta}} \right),
+$$ 
+
+for a projectile launched at an initial height of $y_0$, thus $d = \dfrac{v_0^2}{g}\sin2\varTheta$,
+for a projectile launched from the centre of the coordinate system.
 
 Note that the range depends inversely on the acceleration of gravity, thus the smaller the gravity, the larger the
 range; this means that a projectile launched on the Moon, where the acceleration of gravity is about $\frac{1}{6}$
@@ -117,15 +140,22 @@ from the centre of the coordinate system, then the angle of reach is the solutio
 ### Angle to Hit
 
 To **hit a target** located at a point $T=(x_T, y_T)$, when fired from the centre of the coordinate system, with an
-initial speed of $v_0$, the projectile must be launched at an angle of $\varTheta = \tan^{-1} \dfrac{v_0^2 \pm
-\sqrt{v_0^4 - g \cdot \left( g \cdot x_T^2 + 2 \cdot y_T \cdot v_0^2 \right)}}{g \cdot x_T}$. If the roots are
-imaginary, then the initial speed of the projectile was not fast enough to reach the desired target.
+initial speed of $v_0$, the projectile must be launched at an angle of 
+
+$$
+\varTheta = \tan^{-1} \dfrac{v_0^2 \pm
+\sqrt{v_0^4 - g \cdot \left( g \cdot x_T^2 + 2 \cdot y_T \cdot v_0^2 \right)}}{g \cdot x_T}.
+$$
+
+If the roots are imaginary, then the initial speed of the projectile was not fast enough to reach the desired target.
 
 ***
 
 The case where both roots are the same is very intriguing, as it defines **the angle that allows for the lowest launch
 speed**. For that to happen, the value under the square root must be zero, thus the solutions to the equation $v_0^4 - 2
-\cdot y_T \cdot v_0^2 - g3x_T2 = 0$ must be found. Those solutions are $v_0 = \pm \sqrt{g \cdot y_T - \sqrt{g^2 \cdot
+\cdot y_T \cdot v_0^2 - g3x_T2 = 0$ must be found. 
+
+Those solutions are $v_0 = \pm \sqrt{g \cdot y_T - \sqrt{g^2 \cdot
 \left( x_T^2 + y_T^2 \right)}}$ and $v_0 = \pm \sqrt{g \cdot y_T + \sqrt{g^2 \cdot \left(x_T^2 + y_T^2 \right)}}$. Using
 a completely positive solution, the above equation for the angle required to hit the target reduces to $\varTheta =
 \tan^{-1} \left(\dfrac{y_T}{x_T} + \sqrt{\dfrac{y_T2}{y_T2}+1} \right)$. Now let $\alpha := \tan^{-1}\dfrac{y_T}{x_T}$,

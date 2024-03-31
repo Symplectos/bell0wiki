@@ -23,9 +23,9 @@ w_3)^t$, the scalar product is $b(\vec{v},\vec{w})=\sum_{i=1}^3v_iw_i$.
 
 Two vectors $\vec{v},\vec{w} \in \mathbb{R}^3$ are called linearly independent if, and only if, the following holds:
 
-$
+$$
 \forall \lambda_1, \lambda_2, \lambda_3 \in \mathbb{R}: \lambda_1v_1 + \lambda_2v_2 + \lambda_3v_3 = 0 \Rightarrow \lambda_1 = \lambda_2 = \lambda_3 = 0,
-$ 
+$$
 
 or, in other words, if the only representation of the zero vector is trivial.
 
@@ -94,11 +94,11 @@ $\mathbb{R}^3$, then the outer product can be computed as follows:
 
 Or, if you don't like tensors, you can *cheat* a little bit:
 
-$
+$$
 \begin{align*} \tilde{n} &= \vec{u} \times \vec{v} \\ &= \left(\sum\limits_{i=1}^3(\vec{u} \times \vec{e}_i) \otimes 
 \vec{e}_i \right) \cdot \vec{v} \\ &= \begin{pmatrix}0 & -u_3 & u_2 \\ u_3 & 0 & u_1 \\ u_2 & -u_1 & 0\end{pmatrix} 
 \cdot \begin{pmatrix}v_1 \\ v_2 \\ v_3\end{pmatrix} \\ &= \begin{pmatrix} u_2v_3 - u_3v_2 \\ -u_1v_3 + u_3v_1 \\ u_1v_2 - u_2v_1 \end{pmatrix}.\end{align*}
-$
+$$
 
 #### The Normal Vector of Triangles
 Now why is this so important in games? Well, especially in a 3D engine, which we will eventually elaborate on later in

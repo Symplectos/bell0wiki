@@ -38,7 +38,7 @@ With the knowledge we just gathered, we can now tackle the problem of computing 
 ## Triangle Centroids
 As seen above, to compute the centroid and area of a triangle in vector notation, the vectors between a fixed vertex, $V_1$, for convenience, and the other vertices of the triangle are needed. Thus let $v_i = V_{i+1}-V_1$, for $i=1$, $2$, … $n-1$ be those vectors between $V_1$ and the other vertices. After triangulation, there are $n-2$ adjacent triangles with centroids $C_i = A_1 + \frac{1}{3}\cdot\left(v_i + v_{i+1}\right)$, for $i=1$, $2$, …, $n-2$.
 
-‌![The barycentres of the triangles resulting from the triangulation of the polygon](../../../../../assets/mathematics/geometry/euclidean/polygon2.webp)
+![The barycentres of the triangles resulting from the triangulation of the polygon](../../../../../assets/mathematics/geometry/euclidean/polygon2.webp)
 
 ## Triangle Areas
 Let us denote the areas of the triangles with a lower $w$, for weight. In vector notation, the weight of the triangles resulting from the triangulation are $w_i = \frac{1}{2} \cdot \operatorname{det}(v_i, v_{i+1})$, $i=1$, $2$, …, $n-2$. The total area $W$ of the polygon is thus $W = \sum\limits_{i=1}^{n-2}w_i = \frac{1}{2}\sum\limits_{i=1}^{n-2}\operatorname{det}(v_i,v_{i+1})$.
@@ -48,7 +48,20 @@ The name *weight* is well suited as, as visualized in the figure below, the area
 ![The weights of the different triangles](../../../../../assets/mathematics/geometry/euclidean/polygon3.webp)
 
 ## Centroid of the Polygon
-To now finally compute the coordinates of the centroid $C_P$ of the polygon $P$, it is thus sufficient to divide the sum of the *weighted* centroids of the triangles by the total area of the polygon: $C_P = \frac{1}{W}\sum\limits_{i=1}^{n-2}w_iC_i$. To resemble the formula for the barycentre of a triangle in affine space, the above formula can be rewritten as follows: $C_P = A_1 + \dfrac{1}{3}\dfrac{\sum\limits_{i=1}^{n-2}\operatorname{det}(v_i,v_{i+1}) \cdot (v_i+v_{i+1})}{\sum\limits_{i=1}^{n-2}\operatorname{det}(v_i,v_{i+1})}$, or, using coordinates in Euclidean space: $C_P = \dfrac{1}{3}\left(\dfrac{\sum\limits_{i=1}{n}(x_i+x_{i+1})(x_iy_{i+1}-x_{i+1}y_i)}{\sum\limits_{i=1}{n}(x_iy_{i+1}-x_{i+1}y_i)}, \dfrac{\sum\limits_{i=1}{n}(y_i+y_{i+1})(x_iy_{i+1}-x_{i+1}y_i)}{\sum\limits_{i=1}{n}(x_iy_{i+1}-x_{i+1}y_i)} \right)$.
+To now finally compute the coordinates of the centroid $C_P$ of the polygon $P$, it is thus sufficient to divide the sum of the *weighted* centroids of the triangles by the total area of the polygon: $C_P = \frac{1}{W}\sum\limits_{i=1}^{n-2}w_iC_i$. To resemble the formula for the barycentre of a triangle in affine space, the above formula can be rewritten as follows: 
+
+$$
+C_P = A_1 + \dfrac{1}{3}\dfrac{\sum\limits_{i=1}^{n-2}\operatorname{det}(v_i,v_{i+1}) \cdot (v_i+v_{i+1})}
+{\sum\limits_{i=1}^{n-2}\operatorname{det}(v_i,v_{i+1})},
+$$ 
+
+or, using coordinates in Euclidean space: 
+
+$$
+C_P = \dfrac{1}
+{3}\left(\dfrac{\sum\limits_{i=1}{n}(x_i+x_{i+1})(x_iy_{i+1}-x_{i+1}y_i)}{\sum\limits_{i=1}{n}(x_iy_{i+1}-x_{i+1}y_i)
+}, \dfrac{\sum\limits_{i=1}{n}(y_i+y_{i+1})(x_iy_{i+1}-x_{i+1}y_i)}{\sum\limits_{i=1}{n}(x_iy_{i+1}-x_{i+1}y_i)} \right).
+$$
 
 Note that these formulas are correct, even if the vertices are not given in counter-clockwise order: The determinants might become negative, but the computed coordinates will be correct.
 
@@ -107,7 +120,10 @@ To compute the centroid $C_P = (x_C,y_C)$ using the coordinates of the five vert
 
 ## Formula to remember
 In later tutorials, we will learn how to detect collisions between games objects. To do so, we must find the centre of the game objects, which are often given as convex polygons (think of aircraft, for example). Thus, the important thing to remember from this tutorial is the following formula to compute the centroid of a convex polygon:
-$$C_P = \dfrac{1}{3}\left( \dfrac{\sum\limits_{i=1}{n}(x_i+x_{i+1})(x_iy_{i+1}-x_{i+1}y_i)}{\sum\limits_{i=1}{n}(x_iy_{i+1}-x_{i+1}y_i)}, \dfrac{\sum\limits_{i=1}{n}(y_i+y_{i+1})(x_iy_{i+1}-x_{i+1}y_i)}{\sum\limits_{i=1}{n}(x_iy_{i+1}-x_{i+1}y_i)} \right).$$
+
+$$
+C_P = \dfrac{1}{3}\left( \dfrac{\sum\limits_{i=1}{n}(x_i+x_{i+1})(x_iy_{i+1}-x_{i+1}y_i)}{\sum\limits_{i=1}{n}(x_iy_{i+1}-x_{i+1}y_i)}, \dfrac{\sum\limits_{i=1}{n}(y_i+y_{i+1})(x_iy_{i+1}-x_{i+1}y_i)}{\sum\limits_{i=1}{n}(x_iy_{i+1}-x_{i+1}y_i)} \right).
+$$
 
 ## References
 * [Calculating the area and centroid of a polygon](http://paulbourke.net/geometry/polygonmesh/) by [Paul Bourke](http://paulbourke.net/)

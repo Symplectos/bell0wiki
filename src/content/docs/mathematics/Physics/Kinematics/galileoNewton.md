@@ -66,7 +66,7 @@ is clear that the translation space of the universe is the vector space $\mathbb
 Time is defined as a linear map $t: \mathbb{R}^4 \to \mathbb{R}$, from the translation space of the affine space to the
 so-called **time-axis**. The time interval between two events $a$ and $b$ is $t(b-a)$. If that number is zero, then the
 two events are said to happen simultaneously. The set of all events simultaneous to an event $a$ forms a
-three-dimensional affine subspace $S\_a \subset \mathbb{A}^4$.
+three-dimensional affine subspace $S_a \subset \mathbb{A}^4$.
 
 ![](../../../../../assets/mathematics/physics/galileoNewton/timeCrop.png)
 
@@ -89,7 +89,7 @@ $\mathbb{R}^3$ naturally induces a Galilean structure. Furthermore, every Galile
 A **uniform motion with velocity** $v$ is a map of the form: $$u: \mathbb{R} \times \mathbb{R}^3 \to \mathbb{R} \times
 \mathbb{R}^3, (t,x) \mapsto (t, x + vt).$$
 
-**Translations** by a fixed vector $s$ obviously take the following form: $$\tau\_{s}: \mathbb{R} \times \mathbb{R}^3
+**Translations** by a fixed vector $s$ obviously take the following form: $$\tau_{s}: \mathbb{R} \times \mathbb{R}^3
 \to \mathbb{R} \times \mathbb{R}^3, (t, x) \mapsto (t + \lVert s \rVert, x + s).$$
 
 A **rotation of the coordinate axes** looks like this: $$\rho: \mathbb{R} \times \mathbb{R}^3 \to \mathbb{R} \times
@@ -104,18 +104,18 @@ each other and in particular, isomorphic to the standard Galilean coordinate spa
 A **motion** in an $n$-dimensional space is a differentiable map $x: I \subseteq \mathbb{R} \to \mathbb{R}^n$, also
 sometimes called a position map. The image of $x$ is called a trajectory or **curve** in $\mathbb{R}^n$.
 
-The derivative $\dot{x}(t\_0) = \dfrac{dx}{dt}\bigg\rvert\_{t=t\_0}=\lim\_{h \to 0}\dfrac{x(t\_0+h)-x(t\_0)}{h}$ is
-called the **velocity** vector at the point $t\_0 \in I$.
+The derivative $\dot{x}(t_0) = \dfrac{dx}{dt}\bigg\rvert_{t=t_0}=\lim_{h \to 0}\dfrac{x(t_0+h)-x(t_0)}{h}$ is
+called the **velocity** vector at the point $t_0 \in I$.
 
-The second derivative $\ddot{x}(t\_0) = \dfrac{d^2x}{dt}\bigg\rvert\_{t=t\_0}$ is called the **acceleration** vector at
-the point $t\_0 \in I$.
+The second derivative $\ddot{x}(t_0) = \dfrac{d^2x}{dt}\bigg\rvert_{t=t_0}$ is called the **acceleration** vector at
+the point $t_0 \in I$.
 
 In what follows, all functions are continuously differentiable as many times as necessary.
 
 ***
 
 The movement of $N$ objects, considered as points in a three-dimensional Euclidean space, is given by $N$ position maps:
-$x\_i: \mathbb{R} \to \mathbb{R}^3$, $i=1, 2,$ … $, n$, and their graphs are called **world lines**. The direct product
+$x_i: \mathbb{R} \to \mathbb{R}^3$, $i=1, 2,$ … $, n$, and their graphs are called **world lines**. The direct product
 of $N$ copies of the $\mathbb{R}^3$ is called the **configuration space** of the system of $N$ points and the motion
 maps naturally define a new map $x: \mathbb{R} \to \mathbb{R}^{3N}$, of the time axis into the configuration space. This
 new map is called the motion of a system of $N$ points in the Galilean coordinate system on $\mathbb{R} \times
@@ -148,24 +148,24 @@ on the time, i.e. Newton's equation of motion can be rewritten as: $\ddot{x} = f
 ### Translation Invariance
 
 A second possible Galilean Transformation was the simple translation. Invariance regarding a translation means that the
-space must be homogenous. More precisely, this means that if $x\_i = \varphi\_i(t)$, $i=1, 2$, …, $n$, is the motion of
-a system satisfying Newton's equation of motion, then so must be $\varphi\_i(t)+\tau$, where $\tau \in \mathbb{R}^3$ is
+space must be homogenous. More precisely, this means that if $x_i = \varphi_i(t)$, $i=1, 2$, …, $n$, is the motion of
+a system satisfying Newton's equation of motion, then so must be $\varphi_i(t)+\tau$, where $\tau \in \mathbb{R}^3$ is
 an arbitrary translation vector.
 
 It follows that the right-hand side of the equation of motion in an inertial frame of reference does not depend on the
 choice of a coordinate system, i.e. it does not matter which point is taken as the considered origin of the affine
 space, i.e. it is possible to work with an affine basis. Further, using the invariance with respect to time, Newton's
-equation of motion in an inertial frame of reference can be rewritten as: $\ddot{x\_i} = f\_i((x\_j - x\_k)\_{j,k}, (
-\dot{x}\_j - \dot{x}\_k)\_{j,k})$, with $i,j,k = 1, 2$, …, $n$.
+equation of motion in an inertial frame of reference can be rewritten as: $\ddot{x_i} = f_i((x_j - x_k)_{j,k}, (
+\dot{x}_j - \dot{x}_k)_{j,k})$, with $i,j,k = 1, 2$, …, $n$.
 
 ### Rotational Invariance
 
 The last Galilean transformation to consider is the rotation in three-dimensional space. Invariance regarding such
 rotations means that the space is isotropic, which means *uniform in all orientations*. The word isotropy is derived
 from the two Greek words isos (ἴσος), meaning *equal*, and tropos (τρόπος), meaning *way*, thus, basically speaking,
-rotational invariance means that *all directions are the same*. If $\varphi\_i$ is the motion of a system of points
+rotational invariance means that *all directions are the same*. If $\varphi_i$ is the motion of a system of points
 satisfying Newton's equation of motion, and $G: \mathbb{R}^3 \to \mathbb{R}^3$ is an orthogonal map, then so must the
-motion $G \circ \varphi\_i$ satisfy Newton's equation of motion.
+motion $G \circ \varphi_i$ satisfy Newton's equation of motion.
 
 In other words, invariance with respect to an orthogonal map means just that, invariance under an orthogonal map: $f(Gx,
 G\dot{x})=Gf(x,\dot{x})$.

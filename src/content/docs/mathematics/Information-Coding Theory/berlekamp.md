@@ -118,7 +118,9 @@ $C_{P_f} := \begin{pmatrix}0 & 1 & 0 & ... & 0 \\ 0 & 0 & 1 & ... & 0 \\ \vdots 
 
 Let further $(u_0, u_1, ..., u_{n-1})^t$ be the seed of the LFSR, then the state of the LFSR after k steps is given by:
 
-$$\begin{align} \begin{pmatrix}u_k \\ u_{k+1} \\ u_{k+2} \\ \vdots \\ u_{k+n-1} \end{pmatrix} &= \begin{pmatrix}0 & 1 & 0 & ... & 0 \\ 0 & 0 & 1 & ... & 0 \\ \vdots & \vdots & \vdots & \vdots & \vdots \\ a_0 & a_1 & a_2 & ... & a_{n-1} \end{pmatrix} \cdot \begin{pmatrix} u_{k-1} \\ u_k \\ u_{k+1} \\ \vdots \\ u_{k+n-2} \end{pmatrix} \\ &= \begin{pmatrix}0 & 1 & 0 & ... & 0 \\ 0 & 0 & 1 & ... & 0 \\ \vdots & \vdots & \vdots & \vdots & \vdots \\ a_0 & a_1 & a_2 & ... & a_{n-1} \end{pmatrix}^k \cdot \begin{pmatrix} u_0 \\ u_1 \\ u_2 \\ \vdots \\ u_{n-1} \end{pmatrix}, \end{align}$$
+$$
+\begin{align} \begin{pmatrix}u_k \\ u_{k+1} \\ u_{k+2} \\ \vdots \\ u_{k+n-1} \end{pmatrix} &= \begin{pmatrix}0 & 1 & 0 & ... & 0 \\ 0 & 0 & 1 & ... & 0 \\ \vdots & \vdots & \vdots & \vdots & \vdots \\ a_0 & a_1 & a_2 & ... & a_{n-1} \end{pmatrix} \cdot \begin{pmatrix} u_{k-1} \\ u_k \\ u_{k+1} \\ \vdots \\ u_{k+n-2} \end{pmatrix} \\ &= \begin{pmatrix}0 & 1 & 0 & ... & 0 \\ 0 & 0 & 1 & ... & 0 \\ \vdots & \vdots & \vdots & \vdots & \vdots \\ a_0 & a_1 & a_2 & ... & a_{n-1} \end{pmatrix}^k \cdot \begin{pmatrix} u_0 \\ u_1 \\ u_2 \\ \vdots \\ u_{n-1} \end{pmatrix}, \end{align}
+$$
 
 thus the Frobenius matrix completely determines the behaviour of the LFSR. Using matrix notation, it is straightforward to generalize LFSR to arbitrary fields.
 

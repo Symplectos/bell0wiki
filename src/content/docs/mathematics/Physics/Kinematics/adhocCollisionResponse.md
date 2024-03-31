@@ -121,8 +121,12 @@ want to express the vector of reflection purely by the vector of incidence and t
 ### An Example
 
 As an example, let us compute the reflection vector when the vector of incidence is given by $-\vec{I}=(-4,2)$ and the
-normal vector by $(0,1)$: $$\begin{align}\vec{R}&=2 \cdot \vec{I^{'}} + \vec{I} \\&= -2b((4,-2),(0,1))\cdot(0,1)+(
--4,2) \\ &=4 \cdot (0,1) + (4,-2) \\ &= (0,4)+(4,-2) \\ &= (4,2).\end{align}$$
+normal vector by $(0,1)$: 
+
+$$
+\begin{align}\vec{R}&=2 \cdot \vec{I^{'}} + \vec{I} \\&= -2b((4,-2),(0,1))\cdot(0,1)+(
+-4,2) \\ &=4 \cdot (0,1) + (4,-2) \\ &= (0,4)+(4,-2) \\ &= (4,2).\end{align}
+$$
 
 ## Implementation
 
