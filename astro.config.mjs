@@ -35,17 +35,17 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Game Development',
-					collapsed: false,
+					collapsed: true,
 					autogenerate: {directory: 'gamedev'},
 				},
 				{
 					label: 'Mathematics',
-					collapsed: false,
+					collapsed: true,
 					autogenerate: { directory: 'mathematics' },
 				},
 				{
 					label: 'History, Lore & Mythology',
-					collapsed: false,
+					collapsed: true,
 					autogenerate: { directory: 'lore' },
 				},
 			],
