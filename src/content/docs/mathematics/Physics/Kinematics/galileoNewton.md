@@ -68,7 +68,7 @@ so-called **time-axis**. The time interval between two events $a$ and $b$ is $t(
 two events are said to happen simultaneously. The set of all events simultaneous to an event $a$ forms a
 three-dimensional affine subspace $S\_a \subset \mathbb{A}^4$.
 
-![](../../../../assets/mathematics/physics/galileoNewton/timeCrop.png)
+![](../../../../../assets/mathematics/physics/galileoNewton/timeCrop.png)
 
 #### Distance
 

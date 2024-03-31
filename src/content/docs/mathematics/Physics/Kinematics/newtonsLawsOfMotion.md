@@ -70,7 +70,7 @@ due to gravity and an upward force due to the table. If it is pushed across the 
 force. The total force, or net force, exerted on an object, is the vector sum of the individual forces acting on the
 object.
 
-![](../../../../assets/mathematics/physics/galileoNewton/massTable.png)
+![](../../../../../assets/mathematics/physics/galileoNewton/massTable.png)
 
 Force is measured in Newtons, abbreviated by N. One Newton is defined as the force required to give one kilogram of mass
 an acceleration of $1 \frac{m}{s^2}$, thus $1 N = \dfrac{kg \cdot m}{s^2}$. The reason for this definition will be seen
