@@ -48,6 +48,11 @@ export default defineConfig({
 					collapsed: true,
 					autogenerate: { directory: 'lore' },
 				},
+				{
+					label: 'Politics & Society',
+					collapsed: true,
+					autogenerate: { directory: 'politics' },
+				},
 			],
 		}),
 	],
