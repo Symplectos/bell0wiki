@@ -11,7 +11,7 @@ sidebar:
 
 ## Lattices and Genera
 
-* Extremal Lattices in II_{20}(5^{+10}) -- M. Jürgens, G. Bellot (2015)
+* Extremal Lattices in $II_{20}(5^{+10})$ -- M. Jürgens, G. Bellot (2015)
 
 <br>
 
