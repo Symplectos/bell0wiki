@@ -57,7 +57,8 @@ sidebar:
 
 ## Mathematical Physics
 
-* Galileo versus Newton
+* [Newton's Laws Of Motion](../physics/newtonslawsofmotion)
+* [Galileo versus Newton](../physics/galileonewton)
 
 <br>
 
