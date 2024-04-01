@@ -16,7 +16,8 @@ a [programming IDE](https://en.wikipedia.org/wiki/Comparison_of_integrated_devel
 DirectX SDK, which, since Windows 8, is included as part of the Windows SDK, and a basic knowledge
 of [C++](http://www.stroustrup.com/C++.html).
 
-Please note that **none of the following tutorials have been revisited or edited**. They might be outdated. There might
+Please note that **none of the following tutorials have been revisited or edited**.
+Most of them were written between 2017 and 2019. They might thus be outdated. There might
 be a ton of grammatical mistakes, the explanations might not be well written, and the code might not be optimized.
 Nonetheless, the demos run fine, and there is enough material for anyone to learn something new. Thank you for your
 understanding.
