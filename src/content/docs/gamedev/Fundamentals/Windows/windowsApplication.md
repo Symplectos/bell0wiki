@@ -21,7 +21,7 @@ way to becoming a Windows-Hero!):
 4. Create an actual window from the previously created Window class.
 5. Create a main event loop that retrieves and dispatches Windows messages to the event handler.
 
-![Herakles](../../../../../assets/gamdev/windows/herakles.webp)
+![Herakles](../../../../../assets/gamedev/windows/herakles.webp)
 
 Just imagine the snake being Windows. Now, with this in mind, the first goal is to learn how to create and open a
 window. A window is nothing more than a workspace that displays information, such as text and graphics, that the user
@@ -266,7 +266,7 @@ Windows from the main event loop of the system whenever an event occurs that a r
 an executable code that is passed as an argument to another code, which is then expected to execute (call back) the
 argument at some convenient time.
 
-![Callback Function](../../../../../assets/gamdev/windows/callback.webp)
+![Callback Function](../../../../../assets/gamedev/windows/callback.webp)
 
 An application only needs to do something about events when Windows tells it so. Otherwise, it can just continue doing
 whatever it is supposed to do, until Windows calls in again. A window can handle as many, or as few, events as desired
@@ -385,7 +385,7 @@ second, at least; There is no time to wait for messages.
 This is where the *PeekMessage()* function comes into play. It does not wait for a message, as depicted in the following
 diagram:
 
-![PeekMessage](../../../../../assets/gamdev/windows/peekMessage.webp)
+![PeekMessage](../../../../../assets/gamedev/windows/peekMessage.webp)
 
 *PeekMessage* does essentially the same as *GetMessage*, but with one vital difference: If there is no message in the
 queue, it allows the application to continue until there actually is an event that must be handled.
@@ -538,7 +538,7 @@ util::Expected<int> DirectXApp::run()
 And here we are. Our five tasks completed heroically, we are well on our way to becoming modern heroes of the computer
 age.
 
-![Hercules](../../../../../assets/gamdev/windows/hercules.webp)
+![Hercules](../../../../../assets/gamedev/windows/hercules.webp)
 
 ## Putting it all together
 
@@ -864,7 +864,7 @@ LRESULT CALLBACK Window::msgProc(HWND hWnd, unsigned int msg, WPARAM wParam, LPA
 
 Now bask in the glory that is an empty window — truly a Herculean feat!
 
-![Game Window](../../../../../assets/gamdev/windows/window1.webp)
+![Game Window](../../../../../assets/gamedev/windows/window1.webp)
 
 And here is the produced log file:
 

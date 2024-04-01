@@ -329,7 +329,7 @@ Please have a look at the [source code](https://filedn.eu/ltgnTcOBnsYpGSo6BiuFrP
 
 Behold, a wild $800$ x $600$ window appeared:
 
-![](../../../../../assets/gamdev/scripting/moonWindow.webp)
+![](../../../../../assets/gamedev/scripting/moonWindow.webp)
 
 And here is the log file:
 
