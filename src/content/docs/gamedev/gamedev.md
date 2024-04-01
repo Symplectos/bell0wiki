@@ -87,15 +87,15 @@ I can't think of a better place to start the journey into computer graphics than
 features in these tutorials, Windows 10+ is necessary.
 
 ### Direct2D Fundamentals
-* DirectWrite in Direct2D - A Revision
-* Direct2D - A Revision
-* Drawing Primitives
-* Fun with Brushes
-* Creating Geometrical Objects
-* Direct2D Transformations
-* Bitmaps and the Windows Imaging Component
-* Sprites
-* Animated Sprites and Sprite Sheets
+* [DirectWrite in Direct2D - A Revision](../flatland/direct2d/directwrite)
+* [Direct2D - A Revision](../flatland/direct2d/direct2d)
+* [Drawing Primitives](../flatland/direct2d/primitives)
+* [Fun with Brushes](../flatland/direct2d/brushes)
+* [Creating Geometrical Objects](../flatland/direct2d/geometries)
+* [Direct2D Transformations](../flatland/direct2d/transformations)
+* [Bitmaps and the Windows Imaging Component](../flatland/direct2d/bitmaps)
+* [Sprites](../flatland/direct2d/sprites)
+* [Animated Sprites and Sprite Sheets](../flatland/direct2d/animatedsprites)
 
 ### Input System (I)
 * An Introduction
