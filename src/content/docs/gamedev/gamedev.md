@@ -46,15 +46,15 @@ With all the nasty Windows stuff nicely hidden away, it is time to learn about D
 Language to draw vertices to the screen. In addition, Direct2D and DirectWrite co-operate with Direct3D to output text
 to game windows.
 
-* (Direct)X-Com
-* First Contact
-* The Swap Chain
-* Viewports and Render Targets
-* Printing text with DirectWrite
-* Of Shaders and Triangles
-* Among Colourful Stars
-* Going Fullscreen
-* Game Framework
+* [(Direct)X-Com](../fundamentals/directx/xcom)
+* [First Contact](../fundamentals/directx/firstcontact)
+* [The Swap Chain](../fundamentals/directx/swap)
+* [Viewports and Render Targets](../fundamentals/directx/viewports)
+* [Printing text with DirectWrite](../fundamentals/directx/directwrite)
+* [Of Shaders and Triangles](../fundamentals/directx/shadertriangles)
+* [Among Colourful Stars](../fundamentals/directx/starfield)
+* [Going Fullscreen](../fundamentals/directx/fullscreen)
+* [Game Framework](../fundamentals/directx/firstframework)
 
 ## Shader Programming
 
