@@ -30,7 +30,7 @@ tutorials, a first fundamental framework for any Windows-based games is created,
 management. The framework encapsulates all the tedious details about Windows programming, such that later, more advanced
 tutorials, can simply focus on their core ideas, without having to worry about being bothered by Windows.
 
-* [Hello World!](../fundamentals/windows/helloworld)
+* [Hello World!](fundamentals/windows/helloworld)
 * [Expected!](../fundamentals/c/exceptions)
 * [A Thread-Safe Logger](../fundamentals/c/threadsafelogger)
 * [A real-world Windows application](../fundamentals/windows/windowsapplication)

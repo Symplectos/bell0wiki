@@ -39,6 +39,11 @@ export default defineConfig({
 					autogenerate: {directory: 'gamedev'},
 				},
 				{
+					label: 'IT Infrastructure',
+					collapsed: true,
+					autogenerate: { directory: 'it' },
+				},
+				{
 					label: 'Mathematics',
 					collapsed: true,
 					autogenerate: { directory: 'mathematics' },
