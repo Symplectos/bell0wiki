@@ -22,8 +22,9 @@ be a ton of grammatical mistakes, the explanations might not be well written, an
 Nonetheless, the demos run fine, and there is enough material for anyone to learn something new. Thank you for your
 understanding.
 
-## Windows Game Programming Fundamentals
+## Game Programming Fundamentals
 
+### Windows Game Programming Fundamentals
 Before learning how to program DirectX games, basic knowledge about Win32 programming must be acquired. In the following
 tutorials, a first fundamental framework for any Windows-based games is created, featuring a robust game loop with time
 management. The framework encapsulates all the tedious details about Windows programming, such that later, more advanced
@@ -41,7 +42,7 @@ tutorials, can simply focus on their core ideas, without having to worry about b
 * [Of Icons and Cursors](../fundamentals/windows/iconscursors)
 * [A First Framework](../fundamentals/windows/framework)
 
-## DirectX Fundamentals
+### DirectX Fundamentals
 
 With all the nasty Windows stuff nicely hidden away, it is time to learn about Direct3D and the High-Level Shader
 Language to draw vertices to the screen. In addition, Direct2D and DirectWrite co-operate with Direct3D to output text
@@ -57,14 +58,13 @@ to game windows.
 * [Going Fullscreen](../fundamentals/directx/fullscreen)
 * [Game Framework](../fundamentals/directx/firstframework)
 
-## Shader Programming
-
+### Basic Shader Programming
 The following short tutorials cover the High-Level Shading Language in more details than the previous tutorials.
 
-* The GPU Pipeline
-* An Introduction to the High-Level Shading Language
-* Shader Effects
-* Shader Data
+* [The GPU Pipeline](../fundamentals/shaders/pipeline)
+* [An Introduction to the High-Level Shading Language](../fundamentals/shaders/hlsl)
+* [Shader Effects](../fundamentals/shaders/shaders)
+* [Shader Data](../fundamentals/shaders/shaderdata)
 
 ## Entering Flatland
 
@@ -87,7 +87,6 @@ I can't think of a better place to start the journey into computer graphics than
 features in these tutorials, Windows 10+ is necessary.
 
 ### Direct2D Fundamentals
-
 * DirectWrite in Direct2D - A Revision
 * Direct2D - A Revision
 * Drawing Primitives
@@ -99,57 +98,47 @@ features in these tutorials, Windows 10+ is necessary.
 * Animated Sprites and Sprite Sheets
 
 ### Input System (I)
-
 * An Introduction
 * Banging on the Keyboard
 * Chasing the Mouse
 * Marshalling Game Commands
 
-### User Interface (I)
-
+### User Interface
 * The States of a Game
 * Pushing Buttons with Lambda Functions
 * Options Menu
 * Enabling HUDs
 
-### File System (I)
-
+### File System
 * Raw Data
 
 ### Input System (II)
-
 * DirectInput and Joysticks
 * XInput and Gamepads
 
-### Programming Patterns (I)
-
+### Programming Patterns
 * An Event - Queue
 
-### Music and Sound (I)
-
+### Music and Sound
 * And then, there was sound!
 
-###### XAudio2 with the Windows Media Foundation
-
+#### XAudio2 with the Windows Media Foundation
 * The Basics of XAudio2
 * XAudio2 and Submix Voices
 * Streaming Music with XAudio2
 
 ## A First Game: Tetris
-
 * The Basics
 * Creating a basic installer with Inno Setup
 * Installing the Visual C++ 2017 Redistributables with Inno Setup
 * Resolution Independent Rendering
 
-## Playing God (I) - Fundamental Physics
-
+## Playing God - Fundamental Physics
 To be able to simulate a real world, it is necessary to understand the laws of physics. The following tutorials give a
 basic introduction to the most important concepts of classical mechanics and computational geometry. A more rigorous
 treatment of those concepts will appear in the “mathematics” section of this website, later on.
 
 ### Basic Kinematics
-
 * Units of Measurement
 * One-Dimensional Kinematics
 * Two-Dimensional Motion
@@ -158,22 +147,17 @@ treatment of those concepts will appear in the “mathematics” section of this
 * The Evil Head of Friction
 
 ### Basic Collision Detection and Response
-
 * Basic Collision Detection with Bounding Spheres and Rectangles
 * Basic Ad-Hoc Collision Response
 * Basic Intersection of Line Segments
 * Basic Collision Geometry
 
 ### Particle Systems
-
 * A Basic Particle System
-
----
 
 ## References
 
 (in alphabetic order)
-
 * Game Programming Algorithms, by Sanjay Madhav
 * Game Programming Patterns, by Robert Nystrom
 * Introduction to 3D Game Programming with DirectX 11, by Frank D. Luna
