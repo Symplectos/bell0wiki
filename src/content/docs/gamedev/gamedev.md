@@ -113,11 +113,11 @@ features in these tutorials, Windows 10+ is necessary.
 * [Raw Data](../flatland/file-system/rawdata)
 
 ### Input System (II)
-* DirectInput and Joysticks
-* XInput and Gamepads
+* [DirectInput and Joysticks](../flatland/input/joysticks)
+* [XInput and Gamepads](../flatland/input/gamepads)
 
 ### Programming Patterns
-* An Event - Queue
+* [An Event - Queue](../flatland/programming-patterns/queue)
 
 ### Music and Sound
 * And then, there was sound!
