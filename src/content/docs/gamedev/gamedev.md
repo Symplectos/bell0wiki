@@ -153,7 +153,7 @@ treatment of those concepts will appear in the “mathematics” section of this
 * [Basic Collision Geometry - Review](../mathematics/geometry/euclidean/collisiongeometry)
 
 ### Particle Systems
-* A Basic Particle System
+* [A Basic Particle System](../gamedev/flatland/physics/particles)
 
 ## References
 
