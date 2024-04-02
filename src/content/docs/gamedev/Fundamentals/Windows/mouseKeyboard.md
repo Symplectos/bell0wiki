@@ -1,6 +1,6 @@
 ---
 title: Keyboard and Mouse
-description: This tutorial briefly explains how to read the keyboard and mouse state to handle input data via Windows messages.
+description: This tutorial briefly explains how to read the keyboard.md and mouse state to handle input data via Windows messages.
 ---
 
 > The mouse was just a tiny piece of a much larger project,
