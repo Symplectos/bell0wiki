@@ -147,10 +147,10 @@ treatment of those concepts will appear in the “mathematics” section of this
 * [The Evil Head of Friction](../mathematics/physics/kinematics/galileonewton)
 
 ### Basic Collision Detection and Response
-* Basic Collision Detection with Bounding Spheres and Rectangles
-* Basic Ad-Hoc Collision Response
-* Basic Intersection of Line Segments
-* Basic Collision Geometry
+* [Basic Collision Detection with Bounding Spheres and Rectangles](../mathematics/geometry/euclidean/collisiondetection)
+* [Basic Ad-Hoc Collision Response](../mathematics/physics/kinematics/adhoccollisionresponse)
+* [Basic Intersection of Line Segments](../mathematics/geometry/euclidean/linesegments)
+* [Basic Collision Geometry - Review](../mathematics/geometry/euclidean/collisiongeometry)
 
 ### Particle Systems
 * A Basic Particle System
