@@ -128,10 +128,10 @@ features in these tutorials, Windows 10+ is necessary.
 * [Streaming Music with XAudio2](../flatland/music/streaming)
 
 ## A First Game: Tetris
-* The Basics
-* Creating a basic installer with Inno Setup
-* Installing the Visual C++ 2017 Redistributables with Inno Setup
-* Resolution Independent Rendering
+* [The Basics](../flatland/tetris/svh)
+* [Creating a basic installer with Inno Setup](../flatland/tetris/inno)
+* [Installing the Visual C++ 2017 Redistributables with Inno Setup](../flatland/tetris/prereqs)
+* [Resolution Independent Rendering](../flatland/tetris/resolutionindependence)
 
 ## Playing God - Fundamental Physics
 To be able to simulate a real world, it is necessary to understand the laws of physics. The following tutorials give a
