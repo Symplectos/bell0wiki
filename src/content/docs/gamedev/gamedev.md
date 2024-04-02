@@ -139,12 +139,12 @@ basic introduction to the most important concepts of classical mechanics and com
 treatment of those concepts will appear in the “mathematics” section of this website, later on.
 
 ### Basic Kinematics
-* Units of Measurement
-* One-Dimensional Kinematics
-* Two-Dimensional Motion
-* Basic Projectile Motion
-* Newton's Laws of Motion
-* The Evil Head of Friction
+* [Units of Measurement](../mathematics/physics/basics/units)
+* [One-Dimensional Kinematics](../mathematics/physics/kinematics/onedimkin)
+* [Two-Dimensional Motion](../mathematics/physics/kinematics/twodimkin)
+* [Basic Projectile Motion](../mathematics/physics/kinematics/basicprojectilekinematics)
+* [Newton's Laws of Motion](../mathematics/physics/kinematics/newtonslawsofmotion)
+* [The Evil Head of Friction](../mathematics/physics/kinematics/galileonewton)
 
 ### Basic Collision Detection and Response
 * Basic Collision Detection with Bounding Spheres and Rectangles
