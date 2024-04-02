@@ -120,12 +120,12 @@ features in these tutorials, Windows 10+ is necessary.
 * [An Event - Queue](../flatland/programming-patterns/queue)
 
 ### Music and Sound
-* And then, there was sound!
+* [And then, there was sound!](../mathematics/music/basics)
 
 #### XAudio2 with the Windows Media Foundation
-* The Basics of XAudio2
-* XAudio2 and Submix Voices
-* Streaming Music with XAudio2
+* [The Basics of XAudio2](../flatland/music/xaudio2)
+* [XAudio2 and Submix Voices](../flatland/music/submix)
+* [Streaming Music with XAudio2](../flatland/music/streaming)
 
 ## A First Game: Tetris
 * The Basics
