@@ -8,8 +8,8 @@ import rehypeMathjax from 'rehype-mathjax';
 
 // https://astro.build/config
 export default defineConfig({
-	//site: 'https://bell0bytes.eu',
-	//base: './',
+	site: 'https://bell0bytes.eu',
+	base: './',
 	integrations: [
 		starlight({
 			plugins: [starlightBlog({
